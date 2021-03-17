@@ -51,6 +51,12 @@ header {
   padding: 0;
   order: -1;
 }
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler-icon:focus {
+  outline: none;
+}
 .nav-link {
   transition: all 0.5s;
   font-size: 14px;
@@ -116,7 +122,9 @@ header {
   color: var(--white);
   width: 100%;
 }
-
+.form-control:focus {
+  box-shadow: none;
+}
 /* product menu */
 .product-menu {
   background: rgba(29, 29, 31, 0.6);
